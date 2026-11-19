@@ -1,0 +1,46 @@
+#map{height:100%;min-height:690px;background:#e4dbc7}.atlas-list input{margin:12px 0}.temple-result{position:relative}.temple-result a{color:#49301e}.temple-result button{cursor:pointer}.map-pin{background:#49301e;color:#ebcd85;border:3px solid white;border-radius:50%;text-align:center;font-size:18px;line-height:28px;box-shadow:0 2px 8px #0004}.profile-actions{display:flex;gap:15px;flex-wrap:wrap;margin:25px 0}.profile-actions button{border:0;cursor:pointer}.empty-state{padding:30px;background:#f0e6d5}.temple-detail ul{line-height:2}.login-form input{display:block;width:100%;padding:12px;margin:6px 0 16px;border:1px solid #cbb48d;background:#fff}.login-form label{font-size:14px;font-weight:600}.change-page{max-width:900px;margin:50px auto;padding:0 25px}.change-page h2{margin-top:40px}.change-page li{margin:16px 0}@media(max-width:700px){#map{min-height:450px}.atlas{display:flex;flex-direction:column-reverse}.atlas-list{max-height:none}.change-page{margin:25px auto}}
+
+/* Walnut & gold theme. Local vector grain keeps the design usable offline. */
+:root { --gold: #d9b568; --walnut: #352318; }
+body { background: radial-gradient(ellipse at 15% 0%, #efe0c54d, transparent 52%), #fbf7ee; }
+.site-header, footer, .statement, .login-story {
+  background-color: #352318;
+  background-image: linear-gradient(110deg, #24140850, #57381c10, #24140865), url('walnut-grain.svg');
+  background-size: cover, 1000px 600px;
+  color: #fff6e5;
+}
+.site-header { border-bottom: 1px solid #b28c48; box-shadow: 0 3px 18px #38231012; }
+.logo, .logo > span { color: #e7c777; }
+.logo small { color: #d9c7a6; }
+.site-header nav a:hover, footer a:hover { color: #ebcd85; }
+.site-header .map-nav { color: #ebcd85; border-color: #b28c48; }
+.login-nav { border-color: #b28c48; color: #f4dfaf; background: #c6a05212; }
+.login-nav:hover { background: #c6a05228; }
+.button { background: linear-gradient(135deg, #73502b, #432b1a); border: 1px solid #8b672f; color: #fff5df; box-shadow: 0 3px 8px #38231012; transition: background .2s, box-shadow .2s; }
+.button:hover { background: #79572c; box-shadow: 0 5px 14px #38231025; }
+.home-hero figure img { border: 1px solid #b99a61; box-shadow: 0 12px 32px #4b301921; padding: 5px; background: #e4c992; }
+.home-hero figcaption { background: #352318e8; color: #f9e8c5; border: 1px solid #b28c4866; }
+.statement { border-block: 1px solid #a6813b; }
+.statement .kicker, .statement em, .login-story .kicker { color: #e7c777; }
+.statement > p:last-child, .login-story p, footer p { color: #e1d0b9; }
+footer { border-top: 1px solid #a6813b; }
+.footer-small { border-color: #b28c4866; }
+.learn-card, .deity-card, .practice { box-shadow: 0 4px 16px #4b301907; }
+.learn-card { border-radius: 5px; }
+.learn-card:hover { border-color: #b18b46; background: #eee0c5; }
+.practice { background: #fffdf7; border-radius: 8px; }
+.deity-card { border-radius: 3px; }
+.text-book { background-image: linear-gradient(90deg, #0002, transparent 13%, #ffffff08 80%, #0001); border-top: 1px solid #be9e59; border-radius: 2px 6px 6px 2px; }
+.text-book h2 { color: #fff0cc; }
+.text-book p { color: #f5e9d6; }
+.text-book span { color: #f7dfa4; }
+.atlas-list { background: #fffaf0; }
+.atlas-list input, .login-form input { border-radius: 4px; background: #fffdf8; color: #352318; }
+.temple-result a { color: #49301e; }
+.temple-result button { border: 1px solid #d5bc8d; border-radius: 3px; color: #49301e; }
+.temple-detail aside { border-top: 3px solid #b18b46; border-radius: 4px; }
+.map-pin { background: #49301e; color: #f5d789; border-color: #f7e5ba; }
+.leaflet-popup-content-wrapper { background: #fffaf0; color: #352318; }
+.leaflet-popup-content a { color: #79521c; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline-color: #c2943f; }
+::selection { background: #ddc18a; color: #2e1e13; }
